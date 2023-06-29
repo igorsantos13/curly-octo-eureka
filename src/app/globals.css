@@ -18,11 +18,170 @@
   .spin-blur-background{
     -webkit-box-shadow: 0px 0px 78px 67px rgba(232,140,28,1);
     -moz-box-shadow: 0px 0px 78px 67px rgba(232,140,28,1);
-    box-shadow: 0px 0px 50px 50px rgba(232,140,28,1);
+    box-shadow: 0px 0px 78px 67px rgba(232,140,28,1);
     animation: vasco 4s;
     animation-iteration-count: infinite;
 
   }
+
+  .spin-blur-background-blue{
+    -webkit-box-shadow: 0px 0px 78px 67px rgba(20, 211, 236);
+    -moz-box-shadow: 0px 0px 78px 67px rgba(20, 211, 236);
+    box-shadow: 0px 0px 78px 67px rgb(20, 211, 236);
+    animation: vasco 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  .spin-blur-background-green{
+    -webkit-box-shadow: 0px 0px 78px 67px rgb(20, 236, 103);
+    -moz-box-shadow: 0px 0px 78px 67px rgb(20, 236, 103);
+    box-shadow: 0px 0px 78px 67px rgb(20, 236, 103);
+    animation: vasco 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  .spin-blur-background-purple{
+    -webkit-box-shadow: 0px 0px 78px 67px rgb(177, 13, 218);
+    -moz-box-shadow: 0px 0px 78px 67px rgb(177, 13, 218);
+    box-shadow: 0px 0px 78px 67px rgb(177, 13, 218);
+    animation: vasco 4s;
+    animation-iteration-count: infinite;
+
+  }
+
+  .animate-rotate-bounce-c1{
+    cursor: pointer;
+    animation:shake-vertical-c1 5s cubic-bezier(.455,.03,.515,.955) infinite both
+    
+  }
+
+  .animate-rotate-bounce-c2{
+    cursor: pointer;
+    animation:shake-vertical-c2 5s cubic-bezier(.455,.03,.515,.955) infinite both
+    
+  }
+
+  .animate-rotate-bounce-c3{
+    cursor: pointer;
+    animation:shake-vertical-c3 5s cubic-bezier(.455,.03,.515,.955) infinite both
+    
+  }
+
+  .animate-rotate-bounce-c4{
+    cursor: pointer;
+    animation:shake-vertical-c4 5s cubic-bezier(.455,.03,.515,.955) infinite both
+    
+  }
+
+ 
+@keyframes shake-vertical-c1 {
+  0%,
+  100% {
+    
+
+    transform: rotate(-15deg) translateY(-3px);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: rotate(-15deg) translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: rotate(-15deg) translateY(8px);
+  }
+  80% {
+    transform: rotate(-15deg) translateY(6.4px);
+  }
+  90% {
+    transform: rotate(-15deg) translateY(-6.4px);
+  }
+}
+
+@keyframes shake-vertical-c2 {
+  0%,
+  100% {
+    
+
+    transform: rotate(5deg) translateY(-3px);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: rotate(5deg) translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: rotate(5deg) translateY(8px);
+  }
+  80% {
+    transform: rotate(5deg) translateY(6.4px);
+  }
+  90% {
+    transform: rotate(5deg) translateY(-6.4px);
+  }
+}
+
+@keyframes shake-vertical-c3 {
+  0%,
+  100% {
+    
+
+    transform: rotate(15deg) translateY(-3px);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: rotate(15deg) translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: rotate(15deg) translateY(8px);
+  }
+  80% {
+    transform: rotate(15deg) translateY(6.4px);
+  }
+  90% {
+    transform: rotate(15deg) translateY(-6.4px);
+  }
+}
+
+@keyframes shake-vertical-c4 {
+  0%,
+  100% {
+    
+
+    transform: rotate(-15deg) translateY(-3px);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: rotate(-15deg) translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: rotate(-15deg) translateY(8px);
+  }
+  80% {
+    transform: rotate(-15deg) translateY(6.4px);
+  }
+  90% {
+    transform: rotate(-15deg) translateY(-6.4px);
+  }
+}
+
+
+
 
   @keyframes vasco {
     from {
