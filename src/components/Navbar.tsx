@@ -11,10 +11,11 @@ export default function Navbar({}: Props) {
       <a href="#"><Image src={logo} alt='logo' width={150} height={150}/></a>
 
       <ul className='flex flex-row justify-between w-1/3 '>
-        <li>Home</li>
-        <li>Product</li>
-        <li>Newslatter</li>
-        <li>Conact</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Newslatter</a></li>
+        <li><a href="#">Contact</a></li>
+
       </ul>
     </nav>
   )
